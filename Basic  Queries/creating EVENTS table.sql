@@ -1,0 +1,20 @@
+create table EVENTS(
+artist_name varchar(200),
+user_authentication varchar(200),
+user_first_name varchar(200),
+user_gender varchar(5),
+no_items_in_session numeric(10),
+user_last_name varchar(200),
+song_length_in_seconds numeric(26,6),
+song_level varchar(200),
+user_location varchar(200),
+song_method varchar(200),
+song_played varchar(200),
+user_registration_time_in_seconds numeric(26,6),
+session_id numeric(5),
+song_name varchar(200),
+song_status numeric(5),
+time_in_seconds_of_playing_song numeric(26,6),
+user_agent varchar(400),
+user_id numeric(10)
+);
